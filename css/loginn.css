@@ -1,0 +1,33 @@
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 30;
+  background: #C0C0C0;
+}
+.hero.is-success {
+  background:#B0C4DE;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #0000FF;
+}
+input {
+  font-weight: 280;
+}
+p {
+  font-weight: 110;
+}
+input,
+textarea {
+    padding: 10px;
+    display: block;
+    width: 70%;
+}
+::-webkit-input-placeholder {
+  
+   font: 15px verdana, arial, sans-serif;
+}
+input.is-large {
+  background: #C0C0C0;
+}

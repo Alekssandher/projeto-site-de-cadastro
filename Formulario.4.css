@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+input,
+textarea{
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	
+	background-color: #fafafa;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	width: 200%;
+	max-width: 9000px;
+	
+	background-color: #fff;
+	border-right: 10px;
+	box-shadow: 0 0 20px 1px  rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contact-info{
+	background-color: #9400D3;
+	position: relative;
+}
+
+
+
+form{
+	padding: 2.3rem 2.2rem;
+	z-index: 10;
+	overflow: hidden;
+	position: relative;
+}
+
+.title.one{
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 1;
+	margin-bottom: 0.7rem;
+}
+
+.input-container{
+	position: relative;
+	margin: 1rem 0;
+}
+
+
+.input{
+	width: 100%;
+	outline: none;
+	border: 2px solid #fafafa;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #fafafa;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+
+textarea.input{
+	padding: 0.8rem 1.2rem;
+	min-height: 160px;
+	border-radius: 22px;
+	resize: none;
+	overflow-y: auto;
+}
+
+.input-container label{
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	padding: 0 0.4rem;
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: 400;
+	z-index: 10000;
+	transition: 0.5s;
+
+	pointer-events: none;
+}
+
+.input-container.textarea label{
+	top: 1rem;
+	transform: translateY(0);
+}
+
+.btn{
+	padding: 0.6rem 1.3rem;
+	background-color: #fff;
+	border: 2px solid #fafafa;
+	font-size: 0.95rem;
+	color: #000000;
+	line-height: 1;
+	border-radius: 25px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3;
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.input-container span{
+	position: absolute;
+	top: 0;
+	left: 25px;
+	transform: translateY(-50%);
+	font-size: 1.3rem;
+	padding: 0rem;
+	color: transparent;
+	pointer-events: none;
+	z-index: 500;
+	
+}
+
+.input-container span:before,
+.input-container span:after{
+	content: "";
+	position: absolute;
+	width: 10%;
+	opacity: 0;
+	transition: 0.3s;
+	height: 5px;
+	background-color: #9400D3;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.input-container span:before{
+	left: 50%;
+}
+
+.input-container span:after{
+	right: 50%;
+}
+
+.input-container.focus label{
+	top: 0;
+	transform: translateY(-50%);
+	left: 20px;
+	font-size: 1.1rem;
+}
+
+.input-container.focus span:before,
+.input-container.focus span:after{
+	width: 50%;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+.contact-form{
+	background-color: #1E90FF;
+	position: relative;
+}
+
+.title.two{
+	color: #fff;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 1;
+	margin-bottom: 0.7rem;
+}
+
+
+.input-container spon{
+	position: absolute;
+	top: 0;
+	left: 25px;
+	transform: translateY(-50%);
+	font-size: 1.3rem;
+	padding: 0.rem;
+	color: transparent;
+	pointer-events: none;
+	z-index: 500;
+	
+}
+
+.input-container spon:before,
+.input-container spon:after{
+	content: "";
+	position: absolute;
+	width: 10%;
+	opacity: 0;
+	transition: 0.3s;
+	height: 5px;
+	background-color: #1E90FF;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+
+
+.input-container spon:before{
+	left: 50%;
+}
+
+.input-container spon:after{
+	right: 50%;
+}
+
+.input-container.focus label{
+	top: 0;
+	transform: translateY(-50%);
+	left: 20px;
+	font-size: 1.1rem;
+}
+
+.input-container.focus spon:before,
+.input-container.focus spon:after{
+	width: 50%;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+.contact-info:before{
+	content: "";
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	background-color: #1E90FF;
+	transform: rotate(45deg);
+	top: 140px;
+	left: 780px;
+	
+}
+
+
+.contact-form:before{
+	content: "";
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	background-color: #9400D3;
+	transform: rotate(45deg);
+	top: 540px;
+	left: -13px;
+}
+
+
+
+
+
+
+.circle{
+	border-radius: 50%;
+	background: linear-gradient(135deg, transparent 20px, #9932CC);
+	position: absolute;
+
+}
+
+.circle.one{
+	width: 130px;
+	height: 130px;
+	top: 130px;
+	right: -40px;
+}
+
+.circle.two{
+	width: 80px;
+	height: 80px;
+	top: 10px;
+	right: 30px;
+}
+
+
+.circulo{
+	border-radius: 50%;
+	background: linear-gradient(135deg, transparent 20px,  #1E90FF);
+	position: absolute;
+
+}
+.circulo.one.um{
+	width: 130px;
+	height: 130px;
+	top: 230px;
+	right: 50px;
+}
+
+.circulo.two.dois {
+	width: 80px;
+	height: 80px;
+	top: 130px;
+	right: 190px;
+}
+

@@ -1,0 +1,220 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+    height: 100%;
+    font-family: montserrat;
+}
+
+
+nav{
+	background: #4682B4;
+	height: 80px;
+	width: 100%;	
+}
+
+
+
+
+
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 90px;
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+nav.filtros {
+	color: orange;
+	cursor: right;
+	line-height: 100px;
+	font-size: 20px;
+	margin-top: -37px;
+	width: 100%;
+}
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 15px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pesquisa{
+   
+    margin: -70px 220px;
+    float: left;
+
+}
+
+#texto{
+    width: 330px;
+    height: 30px;
+    float: left;
+    font-family: 'montserrat';
+    font-size: 17px;
+}
+
+.btn{
+    width: 40px;
+    height: 30px;
+    background-color: #F8F8FF;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#texto:focus{
+    border: solid 2px #F8F8FF;
+}
+
+
+
+body{
+	font-family: sans-serif;
+	background:	#D3D3D3;
+}
+
+.btn{
+    width: 40px;
+    height: 30px;
+    background-color: #F8F8FF;
+    padding: 5px 10px;
+    cursor: pointer;
+	}
+}
+
+
+    .caixa{
+    	text-align: center;
+    }
+
+}
+
+	.pesquisa{
+    width: 400px;
+    height: 40px;
+    margin: -40px 300px;
+	}
+	#texto{
+    width: 330px;
+    height: 30px;
+    float: left;
+    font-family: 'Arial';
+    font-size: 17px;
+	}
+
+	.btn{
+    width: 40px;
+    height: 30px;
+    background-color: #F8F8FF;
+    padding: 5px 10px;
+    cursor: pointer;
+	}
+}
+
+nav.filtros {
+	color: orange;
+	cursor: left;
+	line-height: 100px;
+	font-size: 20px;
+	margin-top: -50px;
+	
+}
+
+li{
+	font-size: 20px;
+	color: #050505;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 5px;
+}
+
+
+.tabela1{
+	margin-top: 100px;
+	line-height: 30px;
+	position: relative;
+	left: 288px;
+	display: inline-block;
+  	padding: 5px;
+  	margin-right: -4px;
+}
+
+
+
+
+
+
+@media screen (max-width: 767px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+	body{
+		background: #4682B4;
+		width: 100%;
+	}
+	.pesquisa{
+    width: 400px;
+    height: 40px;
+    margin: -80px 400px;
+
+	}
+
+	#texto{
+    width: 330px;
+    height: 30px;
+    float: left;
+    font-family: 'Arial';
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
